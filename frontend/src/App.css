@@ -1,0 +1,75 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.ai-review-container p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+.logout-button {
+  background-color: #ef4444; /* Tailwind bg-red-500 */
+  color: #fff; /* Tailwind text-white */
+  padding-left: 0.75rem; /* Tailwind px-3 */
+  padding-right: 0.75rem;
+  padding-top: 0.25rem; /* Tailwind py-1 */
+  padding-bottom: 0.25rem;
+  border-radius: 0.25rem; /* Tailwind rounded */
+  font-size: 0.875rem; /* Tailwind text-sm */
+  transition: background-color 0.2s;
+}
+.logout-button:hover {
+  background-color: #dc2626; /* Tailwind hover:bg-red-600 */
+}
+
+.policy-item {
+  padding: 0.75rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.25rem;
+.policy-item:hover {
+  border-color: #bfdbfe;
+}
+.policy-item:hover {
+  background-color: #f9fafb;
+}
+
+.policy-item:hover {
+  border-color: #bfdbfe; /* Tailwind border-blue-200 */
+}}
