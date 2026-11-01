@@ -57,7 +57,7 @@ This tool is especially useful for **enterprises**, **HR/legal teams**, and **MS
 **Deployment Ready:** Docker + Production builds planned
 
 
-## 📦 Local Development
+## 📦 Local Development...
 
 ### Backend (FastAPI)
 
