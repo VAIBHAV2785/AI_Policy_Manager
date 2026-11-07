@@ -1,4 +1,4 @@
-# 🧠 AI-Powered Policy Analyzerr
+# 🧠 AI-Powered Policy Analyzer-
 
 This is a full-stack enterprise-grade **Policy Management & Compliance Review System** built using **React (Vite)** on the frontend and **FastAPI** on the backend. It allows enterprises to **log in via Google**, upload policy documents (PDFs), and receive **AI-powered compliance analysis** aligned with current Indian government standards (e.g., RTI, MSME guidelines)...
 
